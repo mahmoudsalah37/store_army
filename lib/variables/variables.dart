@@ -16,9 +16,8 @@ const String strViewItem = 'عرض البيانات';
 const String strPutAndGet = 'خصم و إضافة';
 double resWidthPage = 0.0;
 DateFormat yearFormater = new DateFormat('yyyy');
-DateFormat dataFormater = new DateFormat().add_yMd();
+DateFormat dataFormater = DateFormat('yyyy-MM-dd');
 DateFormat monthFormater = new DateFormat('mm');
 double get getBodyTableHeight {
-  return ac.rH(100.0) - 176.0;
+  return ac.rH(100.0) - 238.0;
 }
-

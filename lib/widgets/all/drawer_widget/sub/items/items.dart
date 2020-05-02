@@ -4,6 +4,7 @@ import 'package:store_army/packages/draggable_scroll_bar/draggable_scroll_bar.da
 
 import 'package:flutter/material.dart';
 
+import 'sub/analysis.dart';
 import 'sub/main_store/main_store_model_widget.dart';
 
 final _controller = ScrollController();
@@ -19,7 +20,7 @@ Widget items() {
         // Policy(),
         // Scope(),
         MainStoreModelWidget(),
-
+        AnalysisWidget(),
         SizedBox(height: 50.0),
       ],
     ),

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:store_army/pages/data_analysis/data_analysis.dart';
 import 'package:store_army/pages/store/main_store.dart';
 
 class ViewPage extends StatefulWidget {
@@ -17,7 +18,8 @@ class _ViewPageState extends State<ViewPage> {
     switch (widget.page) {
       case 0:
         return MainStore(widget.child);
-      
+      case 1:
+        return AnalysisPage();
       default:
         return MainStore(widget.child);
     }
